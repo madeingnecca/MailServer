@@ -1,0 +1,187 @@
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+	text-align:center;
+	background-color:#E0E9F3;
+	margin:0px;
+	color:black;
+	margin:0px;
+}
+
+.mioObject {
+	border:1px solid black;
+}
+table,tr,td{
+	padding-left:0px;
+	padding-bottom:0px;
+	padding-right:0px;
+	padding-top:0px;
+	font-size:8pt;
+}
+
+
+img{
+	border:0px;
+}
+
+.hSx{
+	background-image:url(../images/hSx.gif);
+	height:29px;
+	width:10px;
+}
+
+.hCenter{
+	background-image:url(../images/hCenter.gif);
+	height:29px;
+	font-weight:bold;
+	text-align:left;
+}
+
+.hDx{
+	background-image:url(../images/hDx.gif);
+	height:29px;
+	width:10px;
+}
+
+.sxCenter{
+	background-image:url(../images/sxCenter.gif);
+	width:10px;
+}
+
+.contenuto{
+	background-color:white;
+	width:730px;
+	text-align:left;
+	color:#7f7f7f;
+	font-weight:bold;
+	font-size:7pt;
+}
+
+.dxCenter{
+	background-image:url(../images/dxCenter.gif);
+	width:10px;
+}
+
+.lSx{
+	background-image:url(../images/lSx.gif);
+	height:11px;
+	width:10px;
+}
+
+.lCenter{
+	background-image:url(../images/lCenter.gif);
+	height:11px;
+}
+
+.lDx{
+	background-image:url(../images/lDx.gif);
+	height:11px;
+	width:10px;
+}
+
+.login{
+	background-repeat:repeat-y;
+	background-image:url(../images/dotsVert.gif);
+	padding-left:15px;
+	text-align:left;
+	color:#7f7f7f;
+	font-weight:bold;
+	font-size:7pt;
+}
+
+a:link,a:visited{
+	color:red;
+	text-decoration:none;
+	font-size:8pt;
+	color:#1C5679;
+	font-weight:normal;
+}
+
+a:hover{
+	color:red;
+	text-decoration:none;
+	font-size:8pt;
+	color:#55809B;
+	font-weight:normal;
+}
+
+h3{
+	color:#5491B5;
+	margin-bottom:8px;
+	display:inline;
+	font-size:13pt;
+}
+
+.separator{
+	height:5px;
+	background-image:url(../images/dotsOriz.gif);
+	background-repeat:repeat-x;
+	margin-bottom:2px;
+}
+
+.intro {
+	text-align:center;
+	width:400px;
+}
+
+.headerSx{
+	vertical-align:top;
+	text-align:right;
+	color:#7f7f7f;
+	font-weight:bold;
+	font-size:7pt;
+	width:474px;
+	margin:0px;
+	padding:0px;
+	height:111px;
+}
+
+.headerDx {
+	width:276px;
+	margin:0px;
+}
+
+.textInput{
+	color:#1C5679;
+	font-weight:bold;
+	font-size:9pt;
+	width:100px;
+	background-color:#efefef;
+	border-style:groove;
+}
+
+.footerIndex {
+	margin:0px;
+	padding:0px;
+	vertical-align:text-top;
+}
+
+p {
+	margin:0px;
+	padding:0px;
+}
+
+img {
+}
+
+.welcome {
+	display:inline;
+	width:50%;
+}
+
+#clock {
+	display:inline;
+	width:50%;
+	text-align:right;
+	padding-right:3px;
+	color:#7f7f7f;
+	font-weight:bold;
+	font-size:7pt;
+}
+
+select {
+	color:#7f7f7f;
+	font-weight:bold;
+	font-size:7pt;
+	z-index:inherit;
+}

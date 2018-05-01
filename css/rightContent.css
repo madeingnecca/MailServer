@@ -1,0 +1,162 @@
+body {
+	background-color:white;
+	margin:0px;
+	padding:0px;
+	text-align:left;
+}
+
+
+iframe {
+	border:0px solid black;
+}
+
+.viewFolderTable {
+	height:100%;
+	width:100%;
+	border:0px solid #ccc;
+	padding:3px;
+}
+
+.panel {
+	height:100px;
+	vertical-align:top;
+	padding:5px;
+}
+
+.messagesContent {
+	overflow:auto;
+	border:1px solid #eee;
+	padding:5px;
+	scrollbar-face-color:#EEEEEE;
+	scrollbar-highlight-color:#FFFFFF;
+	scrollbar-3dlight-color:#C0C0C0;
+	scrollbar-darkshadow-color:#ffffff;
+	scrollbar-shadow-color:#808080;
+	scrollbar-arrow-color:#7D7D7D;
+	scrollbar-track-color:#FFFFFF;
+}
+
+
+.noneHeader {
+	display:inline;	
+	width:20px;
+}
+
+.senderHeader {
+	display:inline;	
+	width:150px;
+	text-align:center;
+}
+
+.priorityHeader {
+	display:inline;	
+	width:20px;
+	text-align:center;
+	color:red;
+}
+
+.dateHeader {
+	display:inline;	
+	width:70px;
+	text-align:center;
+}
+
+.attachHeader {
+	display:inline;	
+	width:20px;
+	text-align:center;
+}
+
+.subjectHeader {
+	display:inline;	
+	width:150px;
+	text-align:center;
+}
+
+.sizeHeader {
+	display:inline;	
+	width:75px;
+	text-align:right;
+}
+
+.help {
+	display:inline;	
+	width:20px;
+}
+
+
+.normal {
+	border:0px solid black;
+	background-color:white;
+	margin:3px;
+}
+
+.highLight {
+	border:1px solid #2D68C1;	
+	background-color:#BBCCEE;
+	margin:3px;
+}
+
+.mioButton {
+	border:2px outset;
+	font-size:7pt;
+	color:#333333;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	padding:2px;
+	cursor:pointer;
+	margin-left:5px;
+}
+
+.special {
+	background:#E6E6E6 no-repeat right center  url(../images/choose.gif);
+	border:2px outset;
+	font-size:7pt;
+	color:#333333;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	padding:2px;
+	cursor:pointer;
+	margin-left:5px;
+}
+
+#attach {
+	position:absolute;
+	visibility:hidden;
+	top:60px;
+	left:330px;
+	width:200px;
+	height:200px;
+	z-index:2;
+	border:1px solid #cccccc;
+	background-color:white;
+	text-align:left;
+	padding:3px;
+	filter:alpha(opacity=85);
+}
+
+#attachments {
+	width:194px;
+	margin-right:3px;
+	margin-left:3px;
+	height:140px;
+	margin-bottom:10px;
+	border:1px solid #cccccc;
+	overflow:auto;
+	scrollbar-face-color:#EEEEEE;
+	scrollbar-highlight-color:#FFFFFF;
+	scrollbar-3dlight-color:#C0C0C0;
+	scrollbar-darkshadow-color:#ffffff;
+	scrollbar-shadow-color:#808080;
+	scrollbar-arrow-color:#7D7D7D;
+	scrollbar-track-color:#FFFFFF;
+}
+#save {
+	position:absolute;
+	visibility:hidden;
+}
+
+#realBody {
+	position:absolute;
+	visibility:hidden;
+}

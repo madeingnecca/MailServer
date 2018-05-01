@@ -1,0 +1,49 @@
+.cartelle{
+	width:162px;
+	vertical-align:top;
+	text-align:left;
+	padding:0px;
+	margin:0px;
+}
+
+
+
+.misc{
+	background-image:url(../images/dotsVert.gif);
+	background-repeat:repeat-y;
+	padding:0px;
+	padding-left:15px;
+}
+
+.contenuto{
+	height:auto;
+}
+
+.mainTable {
+	height:100%;
+}
+
+ul {
+	margin-top:0px;
+}
+
+li {
+	list-style-image:url(../images/puntino.gif);
+	padding:2px;
+}
+
+iFrame {
+	margin:0px;
+}
+
+#altreCartelle {
+	position:absolute;
+	visibility:hidden;
+	background-color:white;
+	left:150px;
+	z-index:3;
+}
+
+
+
+

@@ -1,0 +1,31 @@
+.contenuto {
+	width:350px;
+}
+
+.mioButton {
+	font-family:Verdana;
+	font-size:8pt;
+	font-weight:bold;
+	font-style:normal;
+	color:#1C5679;
+	background-color:#FFFFFF;
+	border-style:outset;
+	border-width:2px;
+	border-color:#CCCCFF;
+}
+
+#imageForm {
+	padding-left:10px;
+}
+
+#url , #hdd {
+	padding-left:10px;
+}
+
+#hdd {
+	visibility:expression(modes[0]);
+}
+
+#url {
+	visibility:expression(modes[1]);
+}

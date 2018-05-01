@@ -1,0 +1,11 @@
+/* I seguenti parametri hanno effetto sulle email inviate con coolmail */
+
+body {
+	scrollbar-face-color:#EEEEEE;
+	scrollbar-highlight-color:#FFFFFF;
+	scrollbar-3dlight-color:#C0C0C0;
+	scrollbar-darkshadow-color:#ffffff;
+	scrollbar-shadow-color:#808080;
+	scrollbar-arrow-color:#7D7D7D;
+	scrollbar-track-color:#FFFFFF;
+}

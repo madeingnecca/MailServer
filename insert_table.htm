@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/popup.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv='page-enter' content='blendtrans(duration=1)'>
+<link rel="stylesheet" type="text/css" href="css/default.css">
+<link rel="stylesheet" type="text/css" href="css/popup.css">
+<script language="javascript" src="js/general.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<script language="JavaScript" type="text/javascript">
+<!--
+function AddTable() {
+	var widthType = (document.tableForm.widthType.value == "pixels") ? "" : "%";
+	var html = '<table border="' + document.tableForm.border.value + '" cellpadding="' + document.tableForm.padding.value + '" ';
+	
+	html += 'cellspacing="' + document.tableForm.spacing.value + '" width="' + document.tableForm.width.value + widthType + '">\n';
+	for (var rows = 0; rows < document.tableForm.rows.value; rows++) {
+		html += "<tr>\n";
+		for (cols = 0; cols < document.tableForm.columns.value; cols++) {
+			html += "<td>&nbsp;</td>\n";
+		}
+		html+= "</tr>\n";
+	}
+	html += "</table>\n";
+	
+	window.opener.insertHTML(html);
+	window.close();
+}
+//-->
+</script>
+<!-- InstanceEndEditable -->
+</head>
+
+<body >
+		<table cellpadding=0 cellspacing=0>
+			<tr>
+				<td colspan="3" align="left">
+					<table width="100%" cellpadding=0 cellspacing=0>
+						<td>
+							<img src="images/header.gif">
+						</td>					
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="hSx">
+				</td>
+				<td class="hCenter" >
+				  <!-- InstanceBeginEditable name="titoloTabella" -->
+				  	::Inserisci tabella::
+				  <!-- InstanceEndEditable -->
+				</td>
+				<td class="hDx">
+				</td>				
+			</tr>
+			<tr>
+				<td class="sxCenter">
+				</td>
+				<td class="contenuto">
+			    <!-- InstanceBeginEditable name="contenuto" -->
+					<form name="tableForm">
+						<table cellpadding="0" cellspacing="10" border="0">
+							<tr>
+								<td align="right">Rows:</td>
+								<td><input name="rows" type="text" id="rows" value="2" size="4"></td>
+								<td align="left">Columns: <input name="columns" type="text" id="columns" value="2" size="4"></td>
+							</tr>
+							<tr>
+								<td align="right">Table width:</td>
+								<td><input name="width" type="text" id="width" value="100" size="4"></td>
+								<td align="left">
+									<select name="widthType" id="widthType">
+										<option value="pixels">pixels</option>
+										<option value="percent" selected>percent</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td align="right">Border thickness:</td>
+								<td><input name="border" type="text" id="border" value="1" size="4"></td>
+								<td align="left">pixels</td>
+							</tr>
+							<tr>
+								<td align="right">Cell padding:</td>
+								<td><input name="padding" type="text" id="padding" value="4" size="4"></td>
+								<td>Cell spacing: <input name="spacing" type="text" id="0" value="0" size="4"></td>
+							</tr>
+							<tr>
+								<td colspan="3" align="center">
+									<input type="button" class="mioButton" value="Inserisci tabella" onClick="AddTable();" />
+									<input type="button" class="mioButton" value="Annulla" onClick="window.close();" />
+								</td>
+							</tr>
+						</table>
+						
+					</form>
+				<!-- InstanceEndEditable -->
+				</td>
+				<td class="dxCenter">
+				</td>				
+			</tr>
+			<tr>
+				<td class="lSx">
+				</td>
+				<td class="lCenter">
+				</td>
+				<td class="lDx">
+				</td>				
+			</tr>
+	</table>
+</body>
+<!-- InstanceEnd --></html>
